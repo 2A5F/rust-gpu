@@ -2205,6 +2205,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f1382d1f0a252c4bf97dc20d979a2fdd05b024acd7c2ed0f7595d7817666a157"
 
 [[package]]
+name = "repro"
+version = "0.4.0-alpha.12"
+dependencies = [
+ "shared",
+ "spirv-std",
+]
+
+[[package]]
 name = "rose_tree"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
